@@ -1,0 +1,176 @@
+* {
+	box-sizing: border-box;
+}
+
+body{
+	font-family: "Arial", sans-serif;
+	background: url(../img/background-main.jpg) no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover
+}
+
+a {
+	color: #ea355a;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+a:focus {
+	outline: none;
+	text-decoration: underline;
+}
+
+fieldset {
+	padding: 0 30px;
+	border: none;
+}
+
+input {
+	display: inline-block;
+	width: 100%;
+	color: #7a7b7f;
+	font-size: 14px;
+	line-height: 20px;
+	border: none;
+	outline: none;
+	background-color: #f0f0f0;
+	padding: 12px;
+	margin-bottom: 17px;
+	border-radius: 3px;
+}
+
+input:focus {
+	border: 1px solid #ea355a;
+}
+
+.rf-form {
+	width: 461px;
+	background: #fff;
+	margin: 60px auto 70px;
+	border-radius: 3px;
+}
+
+.rf-form__header {
+	padding: 30px;
+}
+
+.rf-form__title {
+	background: url(../img/key-icon.png) left center no-repeat;
+	padding-left: 35px;
+	font-size: 24px;
+	font-weight: 700;
+	line-height: 30px;
+	color: #1b1c1d;
+	margin: 0;
+}
+
+.rf-form__log-info {
+	font-size: 13px;
+	font-weight: 400;
+	color: #7a7b7f;
+	line-height: 20px;
+	margin: 0;
+	padding-top: 10px;
+}
+
+.rf-form__data {
+	font-size: 0;
+}
+
+.rf-form__first-name {
+	width: 48%;
+	font-size: 14px;
+}
+
+.rf-form__last-name {
+	width: 48%;
+	margin-left: 4%;
+	margin-bottom: 17px;
+	font-size: 14px;
+}
+
+.rf-form__button {
+	display: block;
+	width: 100%;
+	text-align: center;
+	font-size: 18px;
+	font-weight: 700;
+	color: #fff;
+	background-color: #ea355a;
+	padding: 15px 0;
+	border: none;
+	border-radius: 3px;
+	border-bottom: 3px solid #bd1962;
+	cursor: pointer;
+}
+
+.rf-form__button:hover {
+	opacity: 0.9;
+}
+
+.rf-form__button:focus {
+	outline: none;
+	border: 3px solid #bd1962;
+}
+
+
+.rf-form__agreement {
+	font-size: 12px;
+	font-weight: 400;
+	color: #7a7b7f;
+	line-height: 20px;
+	padding: 24px 0 60px;
+	margin: 0;
+}
+
+/* Typography */
+a,
+input[type="submit"],
+input[type="button"],
+button{
+	-webkit-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+	-moz-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+	transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+}
+input[type="submit"],
+input[type="button"],
+button,
+.ba-button{
+	display: inline-block;
+}
+input[type="submit"]:hover,
+input[type="button"]:hover,
+button:hover,
+.ba-button:hover{
+
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"],
+input[type="tel"],
+textarea,
+select {
+
+	-webkit-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+	-moz-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+	transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus,
+input[type="number"]:focus,
+input[type="tel"]:focus,
+textarea:focus,
+select:focus {
+
+}
+textarea {
+
+}

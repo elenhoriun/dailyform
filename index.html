@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Daily form</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<meta name="description" content="" />
+	<link rel="icon" href="favicon.png"/>
+	<link rel="stylesheet" href="css/normalize.css" />
+	<link rel="stylesheet" href="css/style.css" />
+
+	<!--[if lt IE 9]>
+		<script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+		<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+	<![endif]-->
+</head>
+<body>
+	<section class="rf-form">
+		<header class="rf-form__header">
+			<h2 class="rf-form__title">Create your free account</h2>
+			<p class="rf-form__log-info">Come and join our cool and amazing community, fill in your details to get started. Already have an account? <a href="#">Log in.</a></p>
+		</header>
+		<form action="/" method="post">
+			<fieldset class="rf-form__data">
+				<input class="rf-form__first-name" type="text" name="fname" placeholder="First name" required="required">
+				<input class="rf-form__last-name" type="text" name="lname" placeholder="Last name" required="required">
+				<input class="rf-form__mail" type="email" name="email" placeholder="Email adress" required="required">
+				<input  class="rf-form__password" type="password" name="password" placeholder="Password" required="required">
+			</fieldset>
+			<fieldset class="rf-form__sign-up">
+				<button class="rf-form__button" type="submit">Sign up for free</button>
+				<p class="rf-form__agreement">By clicking on “Sign up for free”, you agree to the <a href="#">Terms of Service</a> and the <a href="#">Privacy Policy</a></p>
+				
+			</fieldset>
+		</form>
+	</section>
+</body>
+</html>
