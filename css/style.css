@@ -35,7 +35,7 @@ input {
 	color: #7a7b7f;
 	font-size: 14px;
 	line-height: 20px;
-	border: none;
+	border: 1px solid transparent;
 	outline: none;
 	background-color: #f0f0f0;
 	padding: 12px;
